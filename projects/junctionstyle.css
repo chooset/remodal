@@ -1,0 +1,80 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Merriweather', serif;
+}
+body {
+	background: url(https://s3.amazonaws.com/codecademy-content/projects/junction/bg.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+.container {
+  max-width:940px;
+}
+
+/* Header */
+.header {
+  background-color: rgba(0,0,0,.5);
+  height: 60px;
+  padding: 10px 0;
+}
+
+.nav li {
+	display: inline-block;
+  padding: 8px 0 4px 0;
+  margin-right: 30px;
+  color: #fff;
+  font-size: 15px;
+}
+
+.nav li:hover {
+		color: #00ffbc;
+  	border-bottom: 1px solid #00ffbc;
+}
+
+.logo {
+            margin: 0 30px 0;
+        }
+
+/* Jumbotron */
+.jumbotron {
+  background-color: rgba(0,0,0,0);
+  position: relative;
+  top: 50px;
+  text-shadow: 0 2px 3px rgba(0,0,0,.4);
+  text-align: center;
+ }
+.jumbotron h1 {
+	font-size: 60px;
+  color: #fff;
+  margin-bottom: 50px;
+}
+
+/* Supporting */
+.supporting {
+  margin: 40px 0 100px 0;
+  text-shadow: 0 2px 3px rgba(0,0,0,.4);
+  text-align: center;
+}
+
+.supporting .col-md-4 {
+		text-align: center;
+  	color: #fff;
+  
+}
+
+.join {
+	height: 200px;
+  border:0;
+  text-align: center;
+}
+.join button {
+		background-color: #00ffbc;
+  	border: #00ffbc;
+  	padding: 10px 55px;
+    color: #fff;
+}
+.join button:hover {
+		color: #fff;
+  	background-color: rgba(0,0,0,.5);
+}
